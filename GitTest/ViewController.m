@@ -25,6 +25,18 @@
     
 }
 
+- (void)add {
+    
+}
+
+- (void)add2 {
+    
+}
+
+- (void)add3 {
+    
+}
+
 
 
 @end
