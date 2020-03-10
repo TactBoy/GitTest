@@ -38,6 +38,8 @@ then
     echo "ipa path: ~/Desktop/${dirName}"
 
     #xcodebuild -exportArchive "./Release-iphoneos/${targetName}.app" -o ~/app.ipa
+    else
+    echo "文件不存在"
 fi
 
 
