@@ -16,15 +16,24 @@ DATE="$(date +%Y%m%d%H%M)"
 
 IPANAME="${targetName}_V${bundleShortVersion}_${DATE}.ipa"
 
-IPA_PATH="$HOME/Desktop/${IPANAME}"
-
-echo ${IPA_PATH}
-
 xcodebuild -workspace "${projectName}.xcworkspace" -scheme "${targetName}" -configuration 'Release' clean
 
 xcodebuild -workspace "${projectName}.xcworkspace" -scheme "${targetName}" -sdk iphoneos -configuration 'Release' CODE_SIGN_IDENTITY="${codeSign}" SYMROOT='$(PWD)'
 
+dirName="${targetName}_V${bundleShortVersion}_${DATE}"
+mkdir "${dirName}"
+
+IPA_PATH="${PWD}/${dirName}/${IPANAME}"
+
 #xcrun -sdk iphoneos PackageApplication "./Release-iphoneos/${targetName}.app" -o ~/"${IPANAME}"
 xcrun -sdk iphoneos PackageApplication "./Release-iphoneos/${targetName}.app" -o "${IPA_PATH}"
+
+#移动dsym文件到dir下
+mv -i "./Release-iphoneos/${targetName}.app.dSYM" "${dirName}"
+mv -i "./${dirName}" ~/Desktop
+rm -r ./Release-iphoneos
+
+echo "ipa path: ~/Desktop/${dirName}"
+
 #xcodebuild -exportArchive "./Release-iphoneos/${targetName}.app" -o ~/app.ipa
  
