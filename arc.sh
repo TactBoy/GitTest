@@ -8,11 +8,11 @@ codeSign="iPhone Developer"
 
 infoPlistPath="./${projectName}/Info.plist"
 
-bundleShortVersion=$(/usr/libexec/PlistBuddy -c "print CFBundleShortVersionString" "${project_infoplist_path}")
+bundleShortVersion=$(/usr/libexec/PlistBuddy -c "print CFBundleShortVersionString" "${infoPlistPath}")
 
-bundleVersion=$(/usr/libexec/PlistBuddy -c "print CFBundleVersion" "${project_infoplist_path}")
+bundleVersion=$(/usr/libexec/PlistBuddy -c "print CFBundleVersion" "${infoPlistPath}")
 
-DATE="$(date +%Y%m%d)"
+DATE="$(date +%Y%m%d%H%M)"
 
 IPANAME="${targetName}_V${bundleShortVersion}_${DATE}.ipa"
 
