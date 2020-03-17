@@ -1,0 +1,3 @@
+2020-03-12 17:00:45.443 altool[26235:1461009] *** Error: Unable to validate archive '/Users/gavin/Desktop/GitTest_V_/GitTest.ipa': (
+    "Error Domain=ITunesConnectionOperationErrorDomain Code=1190 \"No suitable application records were found. Verify your bundle identifier 'LRanger.GitTest' is correct.\" UserInfo={NSLocalizedRecoverySuggestion=No suitable application records were found. Verify your bundle identifier 'LRanger.GitTest' is correct., NSLocalizedDescription=No suitable application records were found. Verify your bundle identifier 'LRanger.GitTest' is correct., NSLocalizedFailureReason=App Store operation failed.}"
+)
