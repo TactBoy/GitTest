@@ -54,8 +54,8 @@ MD_MESSAGE="${MD_MESSAGE} fail"
 checkValue=""
 fi
 
-if [ $build_job -ne $s_build_Job ]; then
-MD_MESSAGE="${MD_MESSAGE} (from ${s_build_Job}_#${s_build_Number})"
+if [ $build_job != $s_build_Job ]; then
+MD_MESSAGE="${MD_MESSAGE} ( from ${s_build_Job}_#${s_build_Number} )"
 fi
 
 MD_MESSAGE=${MD_MESSAGE//\"/\\\"}

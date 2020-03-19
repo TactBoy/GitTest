@@ -27,7 +27,7 @@
     _textView.frame = CGRectMake(10, 100, 200, 200);
     _textView.backgroundColor = [UIColor systemGroupedBackgroundColor];
     _textView.delegate = self;
-    [self.view addSubview:_textView];
+    [self.view addSubview:_textView];sss
     
 }
 
