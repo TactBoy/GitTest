@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8624DACC241741EC00575B8C /* arc.sh in Resources */ = {isa = PBXBuildFile; fileRef = 8624DACB241741EC00575B8C /* arc.sh */; };
+		8624DACC241741EC00575B8C /* archive.sh in Resources */ = {isa = PBXBuildFile; fileRef = 8624DACB241741EC00575B8C /* archive.sh */; };
 		8624DB672417797B00575B8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86999B7D240367F600DB1B1C /* ViewController.m */; };
 		8624DB682417797B00575B8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86999B77240367F600DB1B1C /* AppDelegate.m */; };
 		8624DB692417797B00575B8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86999B88240367FA00DB1B1C /* main.m */; };
 		8624DB6A2417797B00575B8C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86999B7A240367F600DB1B1C /* SceneDelegate.m */; };
 		8624DB6C2417797B00575B8C /* libPods-GitTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B834329BD01A72C389B5912 /* libPods-GitTest.a */; };
 		8624DB6E2417797B00575B8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86999B84240367FA00DB1B1C /* LaunchScreen.storyboard */; };
-		8624DB6F2417797B00575B8C /* arc.sh in Resources */ = {isa = PBXBuildFile; fileRef = 8624DACB241741EC00575B8C /* arc.sh */; };
+		8624DB6F2417797B00575B8C /* archive.sh in Resources */ = {isa = PBXBuildFile; fileRef = 8624DACB241741EC00575B8C /* archive.sh */; };
 		8624DB702417797B00575B8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86999B82240367FA00DB1B1C /* Assets.xcassets */; };
 		8624DB712417797B00575B8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86999B7F240367F600DB1B1C /* Main.storyboard */; };
 		8624DB7A2417799200575B8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86999B7D240367F600DB1B1C /* ViewController.m */; };
@@ -23,11 +23,14 @@
 		8624DB7D2417799200575B8C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86999B7A240367F600DB1B1C /* SceneDelegate.m */; };
 		8624DB7F2417799200575B8C /* libPods-GitTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B834329BD01A72C389B5912 /* libPods-GitTest.a */; };
 		8624DB812417799200575B8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86999B84240367FA00DB1B1C /* LaunchScreen.storyboard */; };
-		8624DB822417799200575B8C /* arc.sh in Resources */ = {isa = PBXBuildFile; fileRef = 8624DACB241741EC00575B8C /* arc.sh */; };
+		8624DB822417799200575B8C /* archive.sh in Resources */ = {isa = PBXBuildFile; fileRef = 8624DACB241741EC00575B8C /* archive.sh */; };
 		8624DB832417799200575B8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86999B82240367FA00DB1B1C /* Assets.xcassets */; };
 		8624DB842417799200575B8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86999B7F240367F600DB1B1C /* Main.storyboard */; };
 		8624DC6F241A310700575B8C /* test.sh in Resources */ = {isa = PBXBuildFile; fileRef = 8624DC6E241A310700575B8C /* test.sh */; };
 		8624DD2E241B7F7100575B8C /* push.sh in Resources */ = {isa = PBXBuildFile; fileRef = 8624DD2D241B7F7000575B8C /* push.sh */; };
+		8624DD672420B14600575B8C /* upload.sh in Resources */ = {isa = PBXBuildFile; fileRef = 8624DD662420B14600575B8C /* upload.sh */; };
+		8624DD682420B14600575B8C /* upload.sh in Resources */ = {isa = PBXBuildFile; fileRef = 8624DD662420B14600575B8C /* upload.sh */; };
+		8624DD692420B14600575B8C /* upload.sh in Resources */ = {isa = PBXBuildFile; fileRef = 8624DD662420B14600575B8C /* upload.sh */; };
 		86999B78240367F600DB1B1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86999B77240367F600DB1B1C /* AppDelegate.m */; };
 		86999B7B240367F600DB1B1C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86999B7A240367F600DB1B1C /* SceneDelegate.m */; };
 		86999B7E240367F600DB1B1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86999B7D240367F600DB1B1C /* ViewController.m */; };
@@ -41,13 +44,14 @@
 /* Begin PBXFileReference section */
 		1B834329BD01A72C389B5912 /* libPods-GitTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GitTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76998A088135138A99ADA130 /* Pods-GitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitTest.debug.xcconfig"; path = "Target Support Files/Pods-GitTest/Pods-GitTest.debug.xcconfig"; sourceTree = "<group>"; };
-		8624DACB241741EC00575B8C /* arc.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = arc.sh; sourceTree = "<group>"; };
+		8624DACB241741EC00575B8C /* archive.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = archive.sh; sourceTree = "<group>"; };
 		8624DB752417797B00575B8C /* GitTest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8624DB762417797B00575B8C /* GitTest2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = GitTest2.plist; path = /Users/gavin/Desktop/PersonalGithub/GitTest/GitTest2.plist; sourceTree = "<absolute>"; };
 		8624DB882417799200575B8C /* GitTest3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8624DB892417799200575B8C /* GitTest3.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = GitTest3.plist; path = /Users/gavin/Desktop/PersonalGithub/GitTest/GitTest3.plist; sourceTree = "<absolute>"; };
 		8624DC6E241A310700575B8C /* test.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = test.sh; sourceTree = "<group>"; };
 		8624DD2D241B7F7000575B8C /* push.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = push.sh; sourceTree = "<group>"; };
+		8624DD662420B14600575B8C /* upload.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = upload.sh; sourceTree = "<group>"; };
 		86999B73240367F600DB1B1C /* GitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86999B76240367F600DB1B1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		86999B77240367F600DB1B1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -111,9 +115,10 @@
 		86999B6A240367F600DB1B1C = {
 			isa = PBXGroup;
 			children = (
-				8624DACB241741EC00575B8C /* arc.sh */,
+				8624DACB241741EC00575B8C /* archive.sh */,
 				8624DC6E241A310700575B8C /* test.sh */,
 				8624DD2D241B7F7000575B8C /* push.sh */,
+				8624DD662420B14600575B8C /* upload.sh */,
 				86999B75240367F600DB1B1C /* GitTest */,
 				86999B74240367F600DB1B1C /* Products */,
 				3527B50F844AD3F3E32B0215 /* Pods */,
@@ -248,7 +253,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8624DB6E2417797B00575B8C /* LaunchScreen.storyboard in Resources */,
-				8624DB6F2417797B00575B8C /* arc.sh in Resources */,
+				8624DD682420B14600575B8C /* upload.sh in Resources */,
+				8624DB6F2417797B00575B8C /* archive.sh in Resources */,
 				8624DB702417797B00575B8C /* Assets.xcassets in Resources */,
 				8624DB712417797B00575B8C /* Main.storyboard in Resources */,
 			);
@@ -259,7 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8624DB812417799200575B8C /* LaunchScreen.storyboard in Resources */,
-				8624DB822417799200575B8C /* arc.sh in Resources */,
+				8624DD692420B14600575B8C /* upload.sh in Resources */,
+				8624DB822417799200575B8C /* archive.sh in Resources */,
 				8624DB832417799200575B8C /* Assets.xcassets in Resources */,
 				8624DB842417799200575B8C /* Main.storyboard in Resources */,
 			);
@@ -271,10 +278,11 @@
 			files = (
 				8624DD2E241B7F7100575B8C /* push.sh in Resources */,
 				86999B86240367FA00DB1B1C /* LaunchScreen.storyboard in Resources */,
-				8624DACC241741EC00575B8C /* arc.sh in Resources */,
+				8624DACC241741EC00575B8C /* archive.sh in Resources */,
 				86999B83240367FA00DB1B1C /* Assets.xcassets in Resources */,
 				8624DC6F241A310700575B8C /* test.sh in Resources */,
 				86999B81240367F600DB1B1C /* Main.storyboard in Resources */,
+				8624DD672420B14600575B8C /* upload.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

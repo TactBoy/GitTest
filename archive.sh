@@ -1,22 +1,60 @@
-##!/bin/bash
-
+#!/bin/bash -x
 projectName="GitTest"
 
+#从jenkins读取
 targetName=${target}
 
+#如果是连续构建,读取上一次的构建信息
+build_Job=${buildJob}
+build_Number=${buildNumber}
+
+PlistBuddy="/usr/libexec/PlistBuddy"
+
+#上次构建的文件地址
+dirName="${build_Job}_#${build_Number}"
+dirPath="${HOME}/Desktop/${dirName}"
+
+#上次构建相关信息
+buildParamsPath="${dirPath}/build.plist"
+
+if test -e $buildParamsPath
+then
+#读取上次构建的target
+lastTargetName=$(${PlistBuddy} -c "Print targetName" ${buildParamsPath})
+fi
+
+#根据上次的target决定本次的target
+if test -n $lastTargetName
+then
+
+if test $lastTargetName = GitTest; then
+targetName="GitTest2"
+elif test $lastTargetName = GitTest2; then
+targetName="GitTest3"
+elif test $lastTargetName = GitTest3; then
+targetName=""
+echo "abort current mingdao session"
+exit 0
+else
+targetName="GitTest"
+fi
+
+fi
+
+#设置缺省target
 if test -z $targetName; then {
     targetName="GitTest"
 }
 fi
 
+#最终的命令执行结果
 resultMessage=""
 
+#代码签名使用自动签名
 codeSign="iPhone Developer"
 
-macPassword="1202"
-
+#本次构建的Jenkins任务名称和序号
 buildNumber=${BUILD_NUMBER}
-
 buildJob=${JOB_NAME}
 
 if test -z $buildNumber; then {
@@ -29,15 +67,15 @@ if test -z $buildJob; then {
 }
 fi
 
+#构建分支名称
 branchName=${GIT_BRANCH}
 
+#本次构建文件地址
 dirName="${buildJob}_#${buildNumber}"
 
 dirPath="${HOME}/Desktop/${dirName}"
 
 archivePath="${dirPath}/${targetName}"
-
-keychainPath="${HOME}/Library/Keychains/login.keychain-db"
 
 infoPlistPath="./${targetName}/Info.plist"
 
@@ -46,13 +84,10 @@ exportOptionsPath="./ExportOptions.plist"
 bundleShortVersion=""
 bundleVersion=""
 
-DATE="$(date +%Y_%m_%d_%H_%M_%S)"
-
 buildIsSuccess="true"
 
 IPAPATH="${dirPath}/${targetName}.ipa"
 
-#
 
 if test ${targetName} = "GitTest"; then
 
@@ -68,6 +103,7 @@ infoPlistPath="./GitTest3.plist"
 
 fi
 
+#保存本次构建信息供下游项目使用
 saveData(){
 
 echo "saveData"
@@ -115,8 +151,6 @@ fi
 echo ""
 echo "start build project: ${projectName}, scheme: ${targetName}, version: ${bundleShortVersion}, build: ${bundleVersion}"
 echo ""
-
-#security unlock-keychain -p "${macPassword}" $keychainPath
 
 xcodebuild clean -workspace "${projectName}.xcworkspace" -scheme "${targetName}" -configuration 'Release'  -quiet
 
