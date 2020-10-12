@@ -30,7 +30,7 @@
     [self.view addSubview:_textView];
     
     123
-    1234
+    
     
 }
 
