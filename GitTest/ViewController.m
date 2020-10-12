@@ -34,6 +34,8 @@
     1234
     
     12345
+    
+    123456
 }
 
 - (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text {
