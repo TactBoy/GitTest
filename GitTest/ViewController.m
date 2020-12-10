@@ -29,9 +29,8 @@
     _textView.delegate = self;
     [self.view addSubview:_textView];
     
-    123
     
-    qwdqwdqw
+    // 1508
     
 }
 

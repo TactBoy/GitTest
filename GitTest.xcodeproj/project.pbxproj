@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CFF454AA6006EAC5295E118 /* libPods-GitTest3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C963A468B7481B5AB21BA96 /* libPods-GitTest3.a */; };
 		8624DACC241741EC00575B8C /* archive.sh in Resources */ = {isa = PBXBuildFile; fileRef = 8624DACB241741EC00575B8C /* archive.sh */; };
 		8624DB672417797B00575B8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86999B7D240367F600DB1B1C /* ViewController.m */; };
 		8624DB682417797B00575B8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86999B77240367F600DB1B1C /* AppDelegate.m */; };
 		8624DB692417797B00575B8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86999B88240367FA00DB1B1C /* main.m */; };
 		8624DB6A2417797B00575B8C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86999B7A240367F600DB1B1C /* SceneDelegate.m */; };
-		8624DB6C2417797B00575B8C /* libPods-GitTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B834329BD01A72C389B5912 /* libPods-GitTest.a */; };
 		8624DB6E2417797B00575B8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86999B84240367FA00DB1B1C /* LaunchScreen.storyboard */; };
 		8624DB6F2417797B00575B8C /* archive.sh in Resources */ = {isa = PBXBuildFile; fileRef = 8624DACB241741EC00575B8C /* archive.sh */; };
 		8624DB702417797B00575B8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86999B82240367FA00DB1B1C /* Assets.xcassets */; };
@@ -21,7 +21,6 @@
 		8624DB7B2417799200575B8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86999B77240367F600DB1B1C /* AppDelegate.m */; };
 		8624DB7C2417799200575B8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86999B88240367FA00DB1B1C /* main.m */; };
 		8624DB7D2417799200575B8C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86999B7A240367F600DB1B1C /* SceneDelegate.m */; };
-		8624DB7F2417799200575B8C /* libPods-GitTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B834329BD01A72C389B5912 /* libPods-GitTest.a */; };
 		8624DB812417799200575B8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86999B84240367FA00DB1B1C /* LaunchScreen.storyboard */; };
 		8624DB822417799200575B8C /* archive.sh in Resources */ = {isa = PBXBuildFile; fileRef = 8624DACB241741EC00575B8C /* archive.sh */; };
 		8624DB832417799200575B8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86999B82240367FA00DB1B1C /* Assets.xcassets */; };
@@ -39,10 +38,15 @@
 		86999B86240367FA00DB1B1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86999B84240367FA00DB1B1C /* LaunchScreen.storyboard */; };
 		86999B89240367FA00DB1B1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86999B88240367FA00DB1B1C /* main.m */; };
 		92B7327925EB003610D421C6 /* libPods-GitTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B834329BD01A72C389B5912 /* libPods-GitTest.a */; };
+		EF90285DB3216BFD34785D72 /* libPods-GitTest2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABA3BE0BDCB16F7C7C8A61B /* libPods-GitTest2.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1B834329BD01A72C389B5912 /* libPods-GitTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GitTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		433D877692F30BFF317C358B /* Pods-GitTest3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitTest3.debug.xcconfig"; path = "Target Support Files/Pods-GitTest3/Pods-GitTest3.debug.xcconfig"; sourceTree = "<group>"; };
+		565EC877D03265F3406FF277 /* Pods-GitTest2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitTest2.release.xcconfig"; path = "Target Support Files/Pods-GitTest2/Pods-GitTest2.release.xcconfig"; sourceTree = "<group>"; };
+		69CADC9A5458ABE71AAB8BE3 /* Pods-GitTest3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitTest3.release.xcconfig"; path = "Target Support Files/Pods-GitTest3/Pods-GitTest3.release.xcconfig"; sourceTree = "<group>"; };
+		6ABA3BE0BDCB16F7C7C8A61B /* libPods-GitTest2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GitTest2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C963A468B7481B5AB21BA96 /* libPods-GitTest3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GitTest3.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76998A088135138A99ADA130 /* Pods-GitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitTest.debug.xcconfig"; path = "Target Support Files/Pods-GitTest/Pods-GitTest.debug.xcconfig"; sourceTree = "<group>"; };
 		8624DACB241741EC00575B8C /* archive.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = archive.sh; sourceTree = "<group>"; };
 		8624DB752417797B00575B8C /* GitTest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +68,7 @@
 		86999B85240367FA00DB1B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86999B87240367FA00DB1B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86999B88240367FA00DB1B1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C28422AE269931D1729E763B /* Pods-GitTest2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitTest2.debug.xcconfig"; path = "Target Support Files/Pods-GitTest2/Pods-GitTest2.debug.xcconfig"; sourceTree = "<group>"; };
 		DA27905A823F35F99A2CBD0C /* Pods-GitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitTest.release.xcconfig"; path = "Target Support Files/Pods-GitTest/Pods-GitTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8624DB6C2417797B00575B8C /* libPods-GitTest.a in Frameworks */,
+				EF90285DB3216BFD34785D72 /* libPods-GitTest2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8624DB7F2417799200575B8C /* libPods-GitTest.a in Frameworks */,
+				1CFF454AA6006EAC5295E118 /* libPods-GitTest3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +105,10 @@
 			children = (
 				76998A088135138A99ADA130 /* Pods-GitTest.debug.xcconfig */,
 				DA27905A823F35F99A2CBD0C /* Pods-GitTest.release.xcconfig */,
+				C28422AE269931D1729E763B /* Pods-GitTest2.debug.xcconfig */,
+				565EC877D03265F3406FF277 /* Pods-GitTest2.release.xcconfig */,
+				433D877692F30BFF317C358B /* Pods-GitTest3.debug.xcconfig */,
+				69CADC9A5458ABE71AAB8BE3 /* Pods-GitTest3.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -107,7 +116,8 @@
 		454A4ABC404BBCDD617B6C49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1B834329BD01A72C389B5912 /* libPods-GitTest.a */,
+				6ABA3BE0BDCB16F7C7C8A61B /* libPods-GitTest2.a */,
+				6C963A468B7481B5AB21BA96 /* libPods-GitTest3.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -326,7 +336,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GitTest-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GitTest2-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -348,7 +358,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GitTest-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GitTest3-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -415,7 +425,7 @@
 /* Begin XCBuildConfiguration section */
 		8624DB732417797B00575B8C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76998A088135138A99ADA130 /* Pods-GitTest.debug.xcconfig */;
+			baseConfigurationReference = C28422AE269931D1729E763B /* Pods-GitTest2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -435,7 +445,7 @@
 		};
 		8624DB742417797B00575B8C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA27905A823F35F99A2CBD0C /* Pods-GitTest.release.xcconfig */;
+			baseConfigurationReference = 565EC877D03265F3406FF277 /* Pods-GitTest2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -455,7 +465,7 @@
 		};
 		8624DB862417799200575B8C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76998A088135138A99ADA130 /* Pods-GitTest.debug.xcconfig */;
+			baseConfigurationReference = 433D877692F30BFF317C358B /* Pods-GitTest3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -475,7 +485,7 @@
 		};
 		8624DB872417799200575B8C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA27905A823F35F99A2CBD0C /* Pods-GitTest.release.xcconfig */;
+			baseConfigurationReference = 69CADC9A5458ABE71AAB8BE3 /* Pods-GitTest3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
